@@ -1,4 +1,4 @@
-# DOCKER-VERSION 0.3.4
+# DOCKER-VERSION 0.5.0
 FROM    centos:6.4
 RUN     yum install -y updates
 
