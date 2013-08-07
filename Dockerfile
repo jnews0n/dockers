@@ -11,7 +11,6 @@ RUN     yum install -y npm
 # Bundle app source
 ADD . /src
 # Install app dependencies
-RUN cd /src; npm install
 RUN cd /src; npm install -g yo
 RUN cd /src; npm install -g karma
 RUN cd /src; npm install -g bower
